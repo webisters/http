@@ -23,23 +23,23 @@ class Protocol
     /**
      * @see https://en.wikipedia.org/wiki/HTTP/1.0
      */
-    public const string HTTP_1_0 = 'HTTP/1.0';
+    public const HTTP_1_0 = 'HTTP/1.0';
     /**
      * @see https://en.wikipedia.org/wiki/HTTP/1.1
      */
-    public const string HTTP_1_1 = 'HTTP/1.1';
+    public const HTTP_1_1 = 'HTTP/1.1';
     /**
      * @see https://en.wikipedia.org/wiki/HTTP/2.0
      */
-    public const string HTTP_2_0 = 'HTTP/2.0';
+    public const HTTP_2_0 = 'HTTP/2.0';
     /**
      * @see https://en.wikipedia.org/wiki/HTTP/2
      */
-    public const string HTTP_2 = 'HTTP/2';
+    public const HTTP_2 = 'HTTP/2';
     /**
      * @see https://en.wikipedia.org/wiki/HTTP/3
      */
-    public const string HTTP_3 = 'HTTP/3';
+    public const HTTP_3 = 'HTTP/3';
     /**
      * @var array<string>
      */

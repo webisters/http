@@ -23,153 +23,153 @@ class ResponseHeader
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Ranges
      */
-    public const string ACCEPT_RANGES = 'Accept-Ranges';
+    public const ACCEPT_RANGES = 'Accept-Ranges';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials
      */
-    public const string ACCESS_CONTROL_ALLOW_CREDENTIALS = 'Access-Control-Allow-Credentials';
+    public const ACCESS_CONTROL_ALLOW_CREDENTIALS = 'Access-Control-Allow-Credentials';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Headers
      */
-    public const string ACCESS_CONTROL_ALLOW_HEADERS = 'Access-Control-Allow-Headers';
+    public const ACCESS_CONTROL_ALLOW_HEADERS = 'Access-Control-Allow-Headers';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Methods
      */
-    public const string ACCESS_CONTROL_ALLOW_METHODS = 'Access-Control-Allow-Methods';
+    public const ACCESS_CONTROL_ALLOW_METHODS = 'Access-Control-Allow-Methods';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
      */
-    public const string ACCESS_CONTROL_ALLOW_ORIGIN = 'Access-Control-Allow-Origin';
+    public const ACCESS_CONTROL_ALLOW_ORIGIN = 'Access-Control-Allow-Origin';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Expose-Headers
      */
-    public const string ACCESS_CONTROL_EXPOSE_HEADERS = 'Access-Control-Expose-Headers';
+    public const ACCESS_CONTROL_EXPOSE_HEADERS = 'Access-Control-Expose-Headers';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Max-Age
      */
-    public const string ACCESS_CONTROL_MAX_AGE = 'Access-Control-Max-Age';
+    public const ACCESS_CONTROL_MAX_AGE = 'Access-Control-Max-Age';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Age
      */
-    public const string AGE = 'Age';
+    public const AGE = 'Age';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Allow
      */
-    public const string ALLOW = 'Allow';
+    public const ALLOW = 'Allow';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data
      */
-    public const string CLEAR_SITE_DATA = 'Clear-Site-Data';
+    public const CLEAR_SITE_DATA = 'Clear-Site-Data';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
      */
-    public const string CONTENT_SECURITY_POLICY = 'Content-Security-Policy';
+    public const CONTENT_SECURITY_POLICY = 'Content-Security-Policy';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only
      */
-    public const string CONTENT_SECURITY_POLICY_REPORT_ONLY = 'Content-Security-Policy-Report-Only';
+    public const CONTENT_SECURITY_POLICY_REPORT_ONLY = 'Content-Security-Policy-Report-Only';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
      */
-    public const string ETAG = 'ETag';
+    public const ETAG = 'ETag';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT
      */
-    public const string EXPECT_CT = 'Expect-CT';
+    public const EXPECT_CT = 'Expect-CT';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires
      */
-    public const string EXPIRES = 'Expires';
+    public const EXPIRES = 'Expires';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy
      */
-    public const string FEATURE_POLICY = 'Feature-Policy';
+    public const FEATURE_POLICY = 'Feature-Policy';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Last-Modified
      */
-    public const string LAST_MODIFIED = 'Last-Modified';
+    public const LAST_MODIFIED = 'Last-Modified';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Location
      */
-    public const string LOCATION = 'Location';
+    public const LOCATION = 'Location';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Proxy-Authenticate
      */
-    public const string PROXY_AUTHENTICATE = 'Proxy-Authenticate';
+    public const PROXY_AUTHENTICATE = 'Proxy-Authenticate';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Public-Key-Pins
      */
-    public const string PUBLIC_KEY_PINS = 'Public-Key-Pins';
+    public const PUBLIC_KEY_PINS = 'Public-Key-Pins';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Public-Key-Pins-Report-Only
      */
-    public const string PUBLIC_KEY_PINS_REPORT_ONLY = 'Public-Key-Pins-Report-Only';
+    public const PUBLIC_KEY_PINS_REPORT_ONLY = 'Public-Key-Pins-Report-Only';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
      */
-    public const string REFERRER_POLICY = 'Referrer-Policy';
+    public const REFERRER_POLICY = 'Referrer-Policy';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After
      */
-    public const string RETRY_AFTER = 'Retry-After';
+    public const RETRY_AFTER = 'Retry-After';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server
      */
-    public const string SERVER = 'Server';
+    public const SERVER = 'Server';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
      */
-    public const string SET_COOKIE = 'Set-Cookie';
+    public const SET_COOKIE = 'Set-Cookie';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/SourceMap
      */
-    public const string SOURCEMAP = 'SourceMap';
+    public const SOURCEMAP = 'SourceMap';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
      */
-    public const string STRICT_TRANSPORT_SECURITY = 'Strict-Transport-Security';
+    public const STRICT_TRANSPORT_SECURITY = 'Strict-Transport-Security';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Timing-Allow-Origin
      */
-    public const string TIMING_ALLOW_ORIGIN = 'Timing-Allow-Origin';
+    public const TIMING_ALLOW_ORIGIN = 'Timing-Allow-Origin';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Tk
      */
-    public const string TK = 'Tk';
+    public const TK = 'Tk';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary
      */
-    public const string VARY = 'Vary';
+    public const VARY = 'Vary';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/WWW-Authenticate
      */
-    public const string WWW_AUTHENTICATE = 'WWW-Authenticate';
+    public const WWW_AUTHENTICATE = 'WWW-Authenticate';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
      */
-    public const string X_CONTENT_TYPE_OPTIONS = 'X-Content-Type-Options';
+    public const X_CONTENT_TYPE_OPTIONS = 'X-Content-Type-Options';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control
      */
-    public const string X_DNS_PREFETCH_CONTROL = 'X-DNS-Prefetch-Control';
+    public const X_DNS_PREFETCH_CONTROL = 'X-DNS-Prefetch-Control';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
      */
-    public const string X_FRAME_OPTIONS = 'X-Frame-Options';
+    public const X_FRAME_OPTIONS = 'X-Frame-Options';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Robots-Tag
      * @see https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag
      */
-    public const string X_ROBOTS_TAG = 'X-Robots-Tag';
+    public const X_ROBOTS_TAG = 'X-Robots-Tag';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
      */
-    public const string X_XSS_PROTECTION = 'X-XSS-Protection';
+    public const X_XSS_PROTECTION = 'X-XSS-Protection';
     // -------------------------------------------------------------------------
     // Custom
     // -------------------------------------------------------------------------
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Powered-By
      */
-    public const string X_POWERED_BY = 'X-Powered-By';
+    public const X_POWERED_BY = 'X-Powered-By';
 }

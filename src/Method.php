@@ -26,13 +26,13 @@ class Method
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/CONNECT
      */
-    public const string CONNECT = 'CONNECT';
+    public const CONNECT = 'CONNECT';
     /**
      * The HTTP DELETE request method deletes the specified resource.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE
      */
-    public const string DELETE = 'DELETE';
+    public const DELETE = 'DELETE';
     /**
      * The HTTP GET method requests a representation of the specified resource.
      * Requests using GET should only be used to request data (they shouldn't
@@ -40,14 +40,14 @@ class Method
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET
      */
-    public const string GET = 'GET';
+    public const GET = 'GET';
     /**
      * The HTTP HEAD method requests the headers that would be returned if the
      * HEAD request's URL was instead requested with the HTTP GET method.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD
      */
-    public const string HEAD = 'HEAD';
+    public const HEAD = 'HEAD';
     /**
      * The HTTP OPTIONS method requests permitted communication options for a
      * given URL or server. A client can specify a URL with this method, or an
@@ -55,13 +55,13 @@ class Method
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS
      */
-    public const string OPTIONS = 'OPTIONS';
+    public const OPTIONS = 'OPTIONS';
     /**
      * The HTTP PATCH request method applies partial modifications to a resource.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH
      */
-    public const string PATCH = 'PATCH';
+    public const PATCH = 'PATCH';
     /**
      * The HTTP POST method sends data to the server. The type of the body of
      * the request is indicated by the Content-Type header.
@@ -69,21 +69,21 @@ class Method
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST
      * @see Header::CONTENT_TYPE
      */
-    public const string POST = 'POST';
+    public const POST = 'POST';
     /**
      * The HTTP PUT request method creates a new resource or replaces a
      * representation of the target resource with the request payload.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT
      */
-    public const string PUT = 'PUT';
+    public const PUT = 'PUT';
     /**
      * The HTTP TRACE method performs a message loop-back test along the path to
      * the target resource, providing a useful debugging mechanism.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/TRACE
      */
-    public const string TRACE = 'TRACE';
+    public const TRACE = 'TRACE';
     /**
      * @var array<string>
      */

@@ -24,88 +24,88 @@ trait HeaderTrait
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
      */
-    public const string CACHE_CONTROL = 'Cache-Control';
+    public const CACHE_CONTROL = 'Cache-Control';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Connection
      */
-    public const string CONNECTION = 'Connection';
+    public const CONNECTION = 'Connection';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Disposition
      */
-    public const string CONTENT_DISPOSITION = 'Content-Disposition';
+    public const CONTENT_DISPOSITION = 'Content-Disposition';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Date
      */
-    public const string DATE = 'Date';
+    public const DATE = 'Date';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Keep-Alive
      */
-    public const string KEEP_ALIVE = 'Keep-Alive';
+    public const KEEP_ALIVE = 'Keep-Alive';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Pragma
      */
-    public const string PRAGMA = 'Pragma';
+    public const PRAGMA = 'Pragma';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Via
      */
-    public const string VIA = 'Via';
+    public const VIA = 'Via';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Warning
      */
-    public const string WARNING = 'Warning';
+    public const WARNING = 'Warning';
     // -------------------------------------------------------------------------
     // Representation headers (Request and Response)
     // -------------------------------------------------------------------------
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding
      */
-    public const string CONTENT_ENCODING = 'Content-Encoding';
+    public const CONTENT_ENCODING = 'Content-Encoding';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Language
      */
-    public const string CONTENT_LANGUAGE = 'Content-Language';
+    public const CONTENT_LANGUAGE = 'Content-Language';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Location
      */
-    public const string CONTENT_LOCATION = 'Content-Location';
+    public const CONTENT_LOCATION = 'Content-Location';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type
      */
-    public const string CONTENT_TYPE = 'Content-Type';
+    public const CONTENT_TYPE = 'Content-Type';
     // -------------------------------------------------------------------------
     // Payload headers (Request and Response)
     // -------------------------------------------------------------------------
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Length
      */
-    public const string CONTENT_LENGTH = 'Content-Length';
+    public const CONTENT_LENGTH = 'Content-Length';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Range
      */
-    public const string CONTENT_RANGE = 'Content-Range';
+    public const CONTENT_RANGE = 'Content-Range';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Link
      */
-    public const string LINK = 'Link';
+    public const LINK = 'Link';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Trailer
      */
-    public const string TRAILER = 'Trailer';
+    public const TRAILER = 'Trailer';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding
      */
-    public const string TRANSFER_ENCODING = 'Transfer-Encoding';
+    public const TRANSFER_ENCODING = 'Transfer-Encoding';
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Upgrade
      */
-    public const string UPGRADE = 'Upgrade';
+    public const UPGRADE = 'Upgrade';
     // -------------------------------------------------------------------------
     // Custom
     // -------------------------------------------------------------------------
     /**
      * @see https://riptutorial.com/http-headers/topic/10581/x-request-id
      */
-    public const string X_REQUEST_ID = 'X-Request-ID';
+    public const X_REQUEST_ID = 'X-Request-ID';
     /**
      * Header names.
      *
