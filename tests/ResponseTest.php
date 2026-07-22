@@ -603,16 +603,20 @@ final class ResponseTest extends TestCase
         $this->response = new Response(new RequestMock());
         $filename = __DIR__ . '/files/file.txt';
         $boundary = \md5($filename);
+        // Derived from the fixture, like testToStringWithDownload above, so the
+        // expectation cannot drift when tests/files/file.txt changes size.
+        $contents = (string) \file_get_contents($filename);
+        $fileSize = \strlen($contents);
         $body = "\r\n--{$boundary}--\r\n"
             . "Content-Type: application/octet-stream\r\n"
-            . "Content-Range: bytes 0-1/11\r\n"
+            . "Content-Range: bytes 0-1/{$fileSize}\r\n"
             . "\r\n"
-            . 'Hi'
+            . \substr($contents, 0, 2)
             . "\r\n--{$boundary}--\r\n"
             . "Content-Type: application/octet-stream\r\n"
-            . "Content-Range: bytes 4-10/11\r\n"
+            . 'Content-Range: bytes 4-' . ($fileSize - 1) . "/{$fileSize}\r\n"
             . "\r\n"
-            . "Webisters!\n"
+            . \substr($contents, 4)
             . "\r\n--{$boundary}--\r\n";
         $length = \strlen($body);
         $startLine = 'HTTP/1.1 206 Partial Content';
